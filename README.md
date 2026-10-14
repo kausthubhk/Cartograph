@@ -35,7 +35,7 @@ The generated test checks that cancelling a terminal job does not publish anothe
 
 ## Authorship and contributions
 
-This initial prototype was implemented with AI coding assistance under the project owner's direction. The owner has not yet reviewed or accepted it. Before presenting it as personally authored work, review and revise the code and record the owner's specific design, implementation, testing, and documentation contributions here. The broader Cartograph architecture in the design specification is not implemented here. No employer source, private service code, or production data is included.
+Created with AI coding assistance under Kausthubh’s direction and published as a portfolio prototype on 14 October 2026. Review the source, tests and current limitations; this prototype has no production use or performance claim. The broader Cartograph architecture in the design specification is not implemented here. No employer source, private service code, or production data is included.
 
 ## Upstream credits
 
