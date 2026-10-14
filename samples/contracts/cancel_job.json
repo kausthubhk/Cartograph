@@ -1,0 +1,15 @@
+{
+  "service": "Jobs",
+  "method": "CancelJob",
+  "input_type": "CancelJobRequest",
+  "fields": ["job_id"],
+  "behaviors": [
+    {
+      "scenario_id": "terminal-no-event",
+      "given": "the job is already terminal",
+      "when": "CancelJob is called",
+      "then": "no JobCancelled event is published",
+      "fixture": "terminal_no_event"
+    }
+  ]
+}
